@@ -3478,6 +3478,29 @@ hr {
   padding: 0 !important;
 }
 
+.mobile_menu .slicknav_menu .slicknav_nav #dropdown-div {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: capitalize;
+  display: none;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 61%;
+}
+
+.mobile_menu #dropdown-div li {
+  width: auto;
+  height: 10%;
+  padding: 8px 8px;
+}
+
+.mobile_menu #dropdown-div li a {
+  color: #072366;
+  font-weight: 400;
+}
+
 /* line 2, /assets/scss/_h1-hero.scss */
 .slider-height {
   height: 920px;
