@@ -599,7 +599,7 @@ hr {
 
 /* line 332, /assets/scss/_common.scss */
 .cal-btn i {
-  color: #A84DA6 !important;
+  color: #072366 !important;
   font-size: 31px;
   font-weight: 300;
   margin-right: 10px;
@@ -607,7 +607,7 @@ hr {
 
 /* line 338, /assets/scss/_common.scss */
 .cal-btn > p {
-  color: #072366 !important;
+  color: #ffa600 !important;
   font-weight: 700;
   font-size: 16px;
   display: inline-block;
@@ -3569,16 +3569,51 @@ hr {
 }
 
 .slide-1 {
-  background-image: url(../img/hero/h1_hero.png);
+  position: relative;
+  background-image: url(../img/program/girls_football.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+
+.slide-1 > * {
+  position: relative;
+  z-index: 2; /* Ensures content is above the overlay */
+}
+
+.slide-1::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgb(0, 0, 0,0.5); /* Grey with 50% opacity */
+   z-index: 1; /* Places overlay on top of the background */
+ }
+
 .slide-2 {
-  background-image: url(../img/hero/h1_hero2.png);
+  background-image: url(../img/program/girls_pad.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+
+.slide-2 > * {
+  position: relative;
+  z-index: 2; /* Ensures content is above the overlay */
+}
+
+.slide-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0,0.5); /* Grey with 50% opacity */
+  z-index: 1; /* Places overlay on top of the background */
 }
 
 /* line 39, /assets/scss/_h1-hero.scss */
@@ -3586,7 +3621,7 @@ hr {
   font-size: 70px;
   font-weight: 800;
   margin-bottom: 14px;
-  color: #002d5b;
+  color: whitesmoke;
   line-height: 1.2;
   text-transform: capitalize;
   margin-bottom: 29px;
@@ -3645,8 +3680,14 @@ hr {
 
 /* line 77, /assets/scss/_h1-hero.scss */
 .slider-area .hero__caption p {
-  color: #464d65;
+  color: whitesmoke;
+  font-weight: bold;
   margin-bottom: 42px;
+}
+
+.donation-options a p {
+  color: whitesmoke;
+  font-weight: bold;
 }
 
 @media (max-width: 575px) {
