@@ -3788,6 +3788,7 @@ hr {
 /* line 1, /assets/scss/_about.scss */
 .about-low-area {
   position: relative;
+  padding: 100px 0 70px 0;
 }
 
 /* line 5, /assets/scss/_about.scss */
@@ -7148,7 +7149,7 @@ hr {
 /* line 76, /assets/scss/_elements.scss */
 .sample-text-area {
   background: #fff;
-  padding: 100px 0 70px 0;
+  padding: 150px 0 150px 0;
 }
 
 /* line 81, /assets/scss/_elements.scss */
