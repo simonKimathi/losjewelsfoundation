@@ -599,7 +599,7 @@ hr {
 
 /* line 332, /assets/scss/_common.scss */
 .cal-btn i {
-  color: #072366 !important;
+  color:  #ffa600 !important;
   font-size: 31px;
   font-weight: 300;
   margin-right: 10px;
@@ -3566,6 +3566,7 @@ hr {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding: 100px 0 70px 0;
 }
 
 .slide-1 {
@@ -3630,7 +3631,7 @@ hr {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 39, /assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 60px;
+    font-size: 20px;
     line-height: 1.2;
   }
 }
@@ -3638,7 +3639,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 39, /assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 50px;
+    font-size: 35px;
     line-height: 1.2;
   }
 }
@@ -3646,7 +3647,7 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 39, /assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 35px;
+    font-size: 20px;
     line-height: 1.2;
   }
 }
@@ -3654,14 +3655,14 @@ hr {
 @media (max-width: 575px) {
   /* line 39, /assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 35px;
+    font-size: 20px;
     line-height: 1.2;
   }
 }
 
 /* line 64, /assets/scss/_h1-hero.scss */
 .slider-area .hero__caption span {
-  font-size: 18px;
+  font-size: 10px;
   line-height: 1.2;
   font-weight: 300;
   margin-bottom: 39px;
